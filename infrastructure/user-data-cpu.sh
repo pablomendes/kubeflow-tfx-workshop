@@ -82,7 +82,7 @@ mkdir -p /mnt/pipelineai/kubelet
 # NOTE:  WE NEED TO KEEP THIS UP HERE SINCE WE USE `pipeline` NEXT
 export PIPELINE_CLI_VERSION=1.5.330
 echo "export PIPELINE_CLI_VERSION=$PIPELINE_CLI_VERSION" >> /root/.bashrc
-echo "export PIPELINE_CLI)VERSION=$PIPELINE_CLI_VERSION" >> /etc/environment
+echo "export PIPELINE_CLI_VERSION=$PIPELINE_CLI_VERSION" >> /etc/environment
 pip install cli-pipeline==$PIPELINE_CLI_VERSION --ignore-installed --no-cache --upgrade
 
 # PipelineAI Runtime
